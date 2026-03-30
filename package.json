@@ -1,1 +1,40 @@
-{ "name": "placement-tracking-system", "version": "1.0.0", "description": "College Placement Tracking System - Full Stack Application", "main": "server/index.js", "scripts": { "start": "node server/index.js", "dev": "nodemon server/index.js", "client": "cd client && npm start", "build": "cd client && npm run build", "install-all": "npm install && cd client && npm install" }, "keywords": ["placement", "college", "tracking", "web", "mobile"], "author": "N-V-S-Manikanta", "license": "MIT" }
+{
+  "name": "weather-dashboard",
+  "version": "1.0.0",
+  "description": "Weather Dashboard Application - Full Stack with React and Express",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install",
+    "test": "jest --testPathPattern=tests/ --forceExit"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  },
+  "keywords": [
+    "weather",
+    "dashboard",
+    "react",
+    "express",
+    "openweathermap"
+  ],
+  "author": "N-V-S-Manikanta",
+  "license": "MIT"
+}
