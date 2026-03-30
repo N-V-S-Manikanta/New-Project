@@ -1,0 +1,16 @@
+{
+  "name": "koro",
+  "version": "1.0.0",
+  "description": "Koro - A new project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": ["koro"],
+  "author": "N-V-S-Manikanta",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
