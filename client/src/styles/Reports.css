@@ -1,0 +1,104 @@
+/* ===== Reports Page ===== */
+.reports-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.export-btn {
+  width: auto;
+  flex-shrink: 0;
+}
+
+.report-section {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.section-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.record-count {
+  background: #ede9fe;
+  color: #5b21b6;
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Branch Report */
+.branch-selector {
+  margin-bottom: 24px;
+}
+
+.branch-select {
+  max-width: 300px;
+}
+
+.branch-report-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background: #f8fafc;
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 28px;
+}
+
+.summary-stat {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.summary-value {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.summary-label {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.table-section {
+  margin-top: 20px;
+}
+
+.table-section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.export-branch-btn {
+  margin-top: 16px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .branch-report-summary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .branch-report-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+}

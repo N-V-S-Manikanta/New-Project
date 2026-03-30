@@ -1,0 +1,18 @@
+/* App.css - Component-level styles */
+
+/* Placement status chips */
+.status-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-chip.status-placed,
+.status-chip.status-offer-letter-received { background: #dbeafe; color: #1e40af; }
+.status-chip.status-joining-confirmed { background: #d1fae5; color: #065f46; }
+.status-chip.status-offer-withdrawn { background: #fee2e2; color: #991b1b; }
+.status-chip.status-not-placed { background: #f3f4f6; color: #4b5563; }
+.status-chip.status-pending { background: #fef3c7; color: #92400e; }
