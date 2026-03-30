@@ -89,7 +89,7 @@ router.put('/:id', authMiddleware, adminMiddleware, async (req, res) => {
       req.body,
       { new: true, runValidators: true }
     ).populate('student', 'usn name branch batch')
-     .populate('company', 'name industry');
+      .populate('company', 'name industry');
 
     if (!placement) {
       return res.status(404).json({ message: 'Placement not found.' });

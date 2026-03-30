@@ -99,6 +99,6 @@
 
 @media (max-width: 480px) {
   .branch-report-summary {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
