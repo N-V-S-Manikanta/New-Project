@@ -1,1 +1,18 @@
-{ "name": "placement-tracking-system", "version": "1.0.0", "description": "College Placement Tracking System - Full Stack Application", "main": "server/index.js", "scripts": { "start": "node server/index.js", "dev": "nodemon server/index.js", "client": "cd client && npm start", "build": "cd client && npm run build", "install-all": "npm install && cd client && npm install" }, "keywords": ["placement", "college", "tracking", "web", "mobile"], "author": "N-V-S-Manikanta", "license": "MIT" }
+{
+  "name": "linkedin-agent",
+  "version": "1.0.0",
+  "description": "LinkedIn Agent - Automate LinkedIn profile management, posts, connections, job search, and messaging",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --coverage"
+  },
+  "keywords": ["linkedin", "agent", "automation", "networking", "job-search"],
+  "author": "N-V-S-Manikanta",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0"
+  }
+}
